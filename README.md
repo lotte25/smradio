@@ -18,3 +18,9 @@ This is a mod that makes the in-game radio play any remote stream (or local file
 - Each radio has its own audio stream
 - They are all desynced (due to the first)
 - my brain
+
+### Credits
+- [JunePost](https://tonightpost.com) - for the idea, the default radio and the game!
+- fmod
+- minhook
+- scrap mechanic
