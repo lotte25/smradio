@@ -138,7 +138,10 @@ DWORD WINAPI InitHooks(LPVOID lpParam) {
     FILE* f;
     freopen_s(&f, "CONOUT$", "w", stdout);
     setvbuf(stdout, nullptr, _IONBF, 0);
-    printf("radio: injected\n");
+
+    printf("Scrap Mechanic Radio Mod!! (github:lotte25/smradio)\n");
+    printf("Default radio (tonightsong.com) by JunePost\n");
+    printf("- - - - - - - -");
 
     HMODULE hFmod = nullptr;
     while (!(hFmod = GetModuleHandleA("fmodstudio.dll"))) {
@@ -150,7 +153,7 @@ DWORD WINAPI InitHooks(LPVOID lpParam) {
         Sleep(100);
     }
 
-    printf("radio: got handles (%p, %p)\n", hFmod, hFmodCore);
+    // printf("radio: got handles (%p, %p)\n", hFmod, hFmodCore);
 
     if (MH_Initialize() != MH_OK) {
         printf("radio: error initializing minhook");
