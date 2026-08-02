@@ -20,7 +20,7 @@ This is a mod that makes the in-game radio play any remote stream (or local file
 - my brain
 
 ### Credits
-- [JunePost](https://tonightpost.com) - for the idea, the default radio and the game!
+- [JunePost](mailto:junepost@tonightpost.com?subject=DMCA%20Complaint) - Idea and default radio
 - fmod
 - minhook
-- scrap mechanic
+- Scrap Mechanic (https://www.axolotgames.com)
